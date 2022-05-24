@@ -6003,7 +6003,7 @@ payload:
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,getlantern.org
   - DOMAIN-SUFFIX,getsync.com
-  - DOMAIN-SUFFIXvoices.org
+  - DOMAIN-SUFFIX,voices.org
   - DOMAIN-SUFFIX,goo.ne.jp
   - DOMAIN-SUFFIX,goodreads.com
   - DOMAIN-SUFFIX,gov.tw
@@ -6344,3 +6344,5 @@ payload:
   - DOMAIN-SUFFIX,isc.org
   - DOMAIN-SUFFIX,sourceforge.net
   - DOMAIN-SUFFIX,typora.io
+  # 测速服务
+  - DOMAIN-SUFFIX,fast.com

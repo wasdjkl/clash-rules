@@ -1,13 +1,6 @@
-# NAME:
+# NAME: Direct
 # AUTHOR: wasdjkl
-# REPO: https://github.com/wasdjkl/ios_rule_script
-# UPDATED: 2022-02-19 12:55:43
-# PROCESS-NAME: 5
-# DOMAIN-SUFFIX: 642
-# DOMAIN-KEYWORD: 8
-# IP-CIDR: 4
-# IP-CIDR6: 1
-# TOTAL: 660
+# REPO: https://github.com/wasdjkl/clash-rules
 payload:
   #---------------------------------------------------#
   ## GaCloud Rules
@@ -1101,3 +1094,4 @@ payload:
   ## Custom Rules
   #---------------------------------------------------#
   - PROCESS-NAME,onedrive.exe
+  - DST-PORT,22
