@@ -3,6 +3,36 @@
 # REPO: https://github.com/wasdjkl/clash-rules
 payload:
   #---------------------------------------------------#
+  ## Custom Rules
+  #---------------------------------------------------#
+  - DOMAIN-SUFFIX,inoreader.com
+  - DOMAIN-SUFFIX,ipfs.io
+  - DOMAIN-SUFFIX,kxcdn.com
+  - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,pixelexperience.org
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,opensea.io
+  - DOMAIN-SUFFIX,ycombinator.com
+  - DOMAIN-SUFFIX,metamask.io
+  - DOMAIN-SUFFIX,imageban.ru
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,gravatar.com
+  - DOMAIN-SUFFIX,wordpress.com
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,trycloudflare.com
+  - DOMAIN-SUFFIX,argotunnel.com
+  - DOMAIN-SUFFIX,_tcp.argotunnel.com
+  - DOMAIN-SUFFIX,manictime.com
+  - DOMAIN-SUFFIX,plugins.jetbrains.com
+  - DOMAIN-SUFFIX,js.org
+  - DOMAIN-SUFFIX,unisvg.com
+  - DOMAIN-SUFFIX,patreon.com
+  - DOMAIN-SUFFIX,codesandbox.io
+  - DOMAIN-SUFFIX,isc.org
+  - DOMAIN-SUFFIX,sourceforge.net
+  - DOMAIN-SUFFIX,typora.io
+  - DOMAIN-SUFFIX,fast.com
+  #---------------------------------------------------#
   ## GaCloud Rules
   #---------------------------------------------------#
   - DOMAIN-SUFFIX,1password.com
@@ -6315,34 +6345,3 @@ payload:
   - IP-CIDR,199.96.56.0/21
   - IP-CIDR,202.160.128.0/22
   - IP-CIDR,209.237.192.0/19
-  #---------------------------------------------------#
-  ## Custom Rules
-  #---------------------------------------------------#
-  - DOMAIN-SUFFIX,inoreader.com
-  - DOMAIN-SUFFIX,ipfs.io
-  - DOMAIN-SUFFIX,kxcdn.com
-  - DOMAIN-SUFFIX,v2ex.com
-  - DOMAIN-SUFFIX,pixelexperience.org
-  - DOMAIN-SUFFIX,github.com
-  - DOMAIN-SUFFIX,opensea.io
-  - DOMAIN-SUFFIX,ycombinator.com
-  - DOMAIN-SUFFIX,metamask.io
-  - DOMAIN-SUFFIX,imageban.ru
-  - DOMAIN-SUFFIX,azureedge.net
-  - DOMAIN-SUFFIX,gravatar.com
-  - DOMAIN-SUFFIX,wordpress.com
-  - DOMAIN-SUFFIX,discord.com
-  - DOMAIN-SUFFIX,trycloudflare.com
-  - DOMAIN-SUFFIX,argotunnel.com
-  - DOMAIN-SUFFIX,_tcp.argotunnel.com
-  - DOMAIN-SUFFIX,manictime.com
-  - DOMAIN-SUFFIX,plugins.jetbrains.com
-  - DOMAIN-SUFFIX,js.org
-  - DOMAIN-SUFFIX,unisvg.com
-  - DOMAIN-SUFFIX,patreon.com
-  - DOMAIN-SUFFIX,codesandbox.io
-  - DOMAIN-SUFFIX,isc.org
-  - DOMAIN-SUFFIX,sourceforge.net
-  - DOMAIN-SUFFIX,typora.io
-  # 测速服务
-  - DOMAIN-SUFFIX,fast.com
